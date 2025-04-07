@@ -342,7 +342,7 @@ const AddRecord: React.FC = () => {
       items.id === items.id ? item : items
     );
     setItems(updatedItem);
-    const response  = await axios.post('http://localhost:5000/')
+    await axios.post('http://localhost:5000/')
     setShowModal(false);
   };
 
