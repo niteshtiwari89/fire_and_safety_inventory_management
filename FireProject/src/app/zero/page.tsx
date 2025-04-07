@@ -346,10 +346,10 @@ const AddRecord: React.FC = () => {
     setShowModal(false);
   };
 
-  const handleRecordClick = (items: Items) => {
-    setSelectedItems(items);
-    setShowModal(true);
-  };
+  // const handleRecordClick = (items: Items) => {
+  //   setSelectedItems(items);
+  //   setShowModal(true);
+  // };
 
   const handleClose = () => {
     router.push('/');
