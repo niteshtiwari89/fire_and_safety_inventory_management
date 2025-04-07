@@ -253,7 +253,7 @@ const AddRecord: React.FC = () => {
   const router = useRouter();
 
   const [items, setItems] = useState<Items[]>([]);
-  const [selectedItems, setSelectedItems] = useState<Items | null>(null);
+  const [selectedItems] = useState<Items | null>(null);
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
